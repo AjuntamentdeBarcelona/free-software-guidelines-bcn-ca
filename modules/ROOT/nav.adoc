@@ -1,0 +1,18 @@
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+include::{partialsdir}/README.adoc[tag=metadata]
+
+.$$MAIN
+* xref:introduction.adoc[Introducció]
+* xref:document-organization.adoc[Organització del document]
+* xref:collaborative-development.adoc[Desenvolupament col·laboratiu]
+* xref:technical-infrastructure.adoc[Infraestructura tècnica]
+* xref:component-management.adoc[Gestió de components]
+* xref:communities.adoc[Comunitats de programari lliure]
+* xref:legal-aspects.adoc[Aspects legals]
+* xref:documentation.adoc[Documentació]
+
+.$$BOTTOM
+* xref:{lang}/glossary:ROOT:glossary.adoc[Glossari de les guies]
+// * link:https://github.com/AjuntamentdeBarcelona/free-software-guidelines-bcn-en/releases/download/v0.2.5/doc.pdf[Download PDF]

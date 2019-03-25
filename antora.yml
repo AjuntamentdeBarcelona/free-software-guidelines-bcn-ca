@@ -1,0 +1,6 @@
+name: ca/free-soft
+title: Gestió de programari lliure
+version: 0.2
+start_page: ROOT:introduction.adoc
+nav:
+- modules/ROOT/nav.adoc

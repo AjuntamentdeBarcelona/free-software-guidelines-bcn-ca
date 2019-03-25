@@ -57,7 +57,7 @@ mesura les regles de governança.
 --
 
 [sidebar.alternative, id="{sect}.{counter:measure:A}"]
-. Cedir la propietat del nou codi font al propietari legal del codi original
+.Cedir la propietat del nou codi font al propietari legal del codi original
 --
 [.tags]
 * Compra

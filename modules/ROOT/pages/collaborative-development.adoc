@@ -338,7 +338,7 @@ http://producingoss.com/en/getting-started.html#choosing-a-name.
 --
 
 [sidebar.recommendation, id="{sect}.{counter:measure:A}"]
-. Adquirir el nom en els espais d’Internet importants
+.Adquirir el nom en els espais d’Internet importants
 --
 [.tags]
 * NouProducte

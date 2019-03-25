@@ -32,11 +32,10 @@ projecte que lideri, l’Ajuntament haurà de valorar fins a quin punt les
 necessitats i mentalitats dels dos conjunts de persona son diferents i
 resulta per tant impossible que un únic model de web s’adeqüi als dos grups.
 
-A l’apartat Repositori de
-link:#repositori-de-codi-i-control-de-versions[codi i control de versions]
-s’explica com crear la web de desenvolupament, que és l’única que es
-necessita des de bon començament. A mida que el projecte creix, es pot
-valorar si cal també un lloc orientat a d’altres perfils de participant.
+A l’apartat <<Repositori de codi i control de versions>> s’explica com crear
+la web de desenvolupament, que és l’única que es necessita des de bon
+començament. A mida que el projecte creix, es pot valorar si cal també un
+lloc orientat a d’altres perfils de participant.
 
 El que sí és interessant tenir des del principi és un nom de domini propi (o
 una URL permanent sota algun domini de l’Ajuntament), que si cal es pugui
@@ -489,9 +488,8 @@ greu) si s’infringeix aquesta regla.
 [.tags]
 * Adaptació
 
-[[repositori-de-codi-i-control-de-versions]]Per permetre finalment integrar
-els nostres canvis, i que les nostres notificacions de defectes tinguin
-sentit.
+Per permetre finalment integrar els nostres canvis, i que les nostres
+notificacions de defectes tinguin sentit.
 --
 
 
@@ -763,7 +761,7 @@ Activar l’arxiu.
 --
 
 [sidebar.recommendation, id="{sect}.{counter:measure:A}"]
-. Crear un xat de desenvolupament per la comunicació immediata de l’equip
+.Crear un xat de desenvolupament per la comunicació immediata de l’equip
 --
 [.tags]
 * Plugin

@@ -98,6 +98,7 @@ opcionalment requerir una *migració*, en cas que ens trobem en la situació
 d’implantar un sistema que substitueix, en part o totalment, les funcions
 d’un sistema anterior.
 
+[[use-case-integration]]
 === Escenari `Integració`
 
 Aquest escenari pot comportar la creació d’un o més repositoris propis, però
@@ -122,8 +123,8 @@ internacionalització (l10n, i18n). Contemplem dues possibilitats:
   dissenyat per incorporar traduccions de la interfície, i (2) les traduccions
   a realitzar poden ser d’utilitat general per a d’altres potencials usuaris
   de l’eina. En aquest cas s’intentarà contribuir aquestes traduccions al
-  projecte original i per tant ens trobaríem en
-  l”link:#escenari-adaptacio[Escenari Adaptació].
+  projecte original i per tant ens trobaríem en l'<<use-case-adaptation,
+  Escenari Adaptació>>.
 * Alguna de les dues condicions anteriors no es compleix i emmagatzemem els
   fitxers necessaris per efectuar la traducció a un repositori propi.
 
@@ -134,17 +135,18 @@ Un exemple hipotètic seria un portal web construït utilitzant un gestor de
 continguts com Wordpress, amb una base de dades MariaDB.
 ====
 
-[[escenari-integracio]]Es tracta de components estàndard de programari
-lliure, però per facilitar-ne la gestió pot convenir guardar en un
-repositori elements de personalització com plantilles, fitxers CSS, imatges,
-llistat d’extensions de Wordpress a carregar, així com imatges de Docker que
-incloguin tots els elements necessaris per al desplegament.
+Es tracta de components estàndard de programari lliure, però per
+facilitar-ne la gestió pot convenir guardar en un repositori elements de
+personalització com plantilles, fitxers CSS, imatges, llistat d’extensions
+de Wordpress a carregar, així com imatges de Docker que incloguin tots els
+elements necessaris per al desplegament.
 
+[[use-case-adaptation]]
 === Escenari `Adaptació`
 
 Aquest escenari pot comportar la creació d’un o més repositoris propis amb
-els mateixos continguts descrits per a l”link:#escenari-integracio[Escenari
-Integració]. En canvi, el tret distintiu d’aquest escenari és el patrocini
+els mateixos continguts descrits per a l'<<use-case-integration, Escenari
+Integració>>. En canvi, el tret distintiu d’aquest escenari és el patrocini
 per part de l’Ajuntament de Barcelona del desenvolupament d’alguna
 contribució significativa a un producte de programari lliure que pugui ser
 potencialment incorporada al producte original (encara que aquesta
@@ -166,10 +168,10 @@ Si les traduccions o elements de localització es troben barrejats amb
 elements de personalització propis de l’Ajuntament, o bé el producte
 original no està dissenyat per incorporar noves traduccions i
 localitzacions, aleshores no es pot plantejar una contribució com a tal i
-ens trobaríem a link:#escenari-integracio[l”Escenari Integració].
+ens trobaríem a l'<<use-case-integration, Escenari Integració>>.
 
 [example]
-.Bústia ètica de l’Ajuntament de Barcelona
+.Bústia ètica de l'Ajuntament de Barcelona
 ====
 Existia un programari original, el de
 https://www.globaleaks.org/[Globaleaks], al qual se li han incorporat les
@@ -179,20 +181,21 @@ la branca master del https://github.com/globaleaks/GlobaLeaks[repositori
 principal de Globaleaks].
 ====
 
-[[escenari-adaptacio]]En el mateix projecte s’han desenvolupat tasques de
-personalització, incloent la traducció de la interfície al català, però com
-que alguns literals no son d’ús general sinó que son personalitzacions
-pròpies de l’Ajuntament, la traducció en sí no s’ha pogut contribuir al
-projecte original.
+En el mateix projecte s’han desenvolupat tasques de personalització,
+incloent la traducció de la interfície al català, però com que alguns
+literals no son d’ús general sinó que son personalitzacions pròpies de
+l’Ajuntament, la traducció en sí no s’ha pogut contribuir al projecte
+original.
 
+[[use-case-plugin]]
 === Escenari `Plugin`
 
 Es tracta d’un escenari intermig entre la integració de funcionalitats noves
-a un producte ja existent (link:#escenari-adaptacio[Escenari Adaptació]) i
-el desenvolupament d’un nou producte (link:\l[Escenari NouProducte]) i
-comparteix característiques dels dos.
+a un producte ja existent (<<use-case-adaptation, Escenari Adaptació>>) i el
+desenvolupament d’un nou producte (<<use-case-new-product, Escenari Nou
+Producte>>) i comparteix característiques dels dos.
 
-D’una banda, es parteix d’un programari ja existent al qual s’ha d’afegir
+D'una banda, es parteix d’un programari ja existent al qual s’ha d’afegir
 funcionalitat. De l’altre, l’arquitectura d’aquest programari és modular i
 preveu l’extensió mitjançant un mecanisme estandaritzat que permet una
 evolució semi-independent dels nous mòduls, de tal manera que en alguns
@@ -210,10 +213,11 @@ https://ckan.org/[CKAN]. Aquest producte és
 http://docs.ckan.org/en/latest/extensions/plugin-interfaces.htm[fàcilment]
 extensible mitjançant plugins o extensions i durant el desenvolupament del
 nou portal va ser necessari tant modificar una extensió ja existent (això es
-correspondria amb l”link:#escenari-adaptacio[Escenari Adaptació]) com
+correspondria amb l'<<use-case-adaptation, Escenari Adaptació>>) com
 crear-ne de noves.
 ====
 
+[[use-case-new-product]]
 === Escenari `NouProducte`
 
 Quan no es troba cap component o combinació de components que satisfan una
@@ -240,6 +244,7 @@ reescriure de nou l’aplicació (millorant, entre d’altres, la modularitat de
 codi).
 ====
 
+[[use-case-publication]]
 === Escenari `Publicació`
 
 L’Ajuntament de Barcelona és el propietari legal de molt codi que es troba
@@ -252,9 +257,10 @@ Por haver-hi diferents raons que justifiquin la publicació d’un codi, sempre
 que compleixi amb certs requisits de qualitat. Una possible situació és que
 es vulgui iniciar un nou contracte de desenvolupament per estendre o adaptar
 «en obert» un component ja existent (això equivaldria a una combinació del
-l”ombining the link:#escen[Escenari Adaptació] i l”and the
-link:#escenari-publicacio[Escenari Publicació][[escenari-publicacio]]).
+l'<<use-case-adaptation, Escenari Adaptació>> i l'<<use-cas-publication,
+Escenari Publicació>>).
 
+[[use-case-document]]
 === Escenari `Document`
 
 A vegades es vol fer públic un document que s’ha redactat (o que s’ha

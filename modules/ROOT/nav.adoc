@@ -10,7 +10,7 @@ include::{partialsdir}/README.adoc[tag=metadata]
 * xref:technical-infrastructure.adoc[Infraestructura tècnica]
 * xref:component-management.adoc[Gestió de components]
 * xref:communities.adoc[Comunitats de programari lliure]
-* xref:legal-aspects.adoc[Aspects legals]
+* xref:legal-aspects.adoc[Aspectes legals]
 * xref:documentation.adoc[Documentació]
 
 .$$BOTTOM

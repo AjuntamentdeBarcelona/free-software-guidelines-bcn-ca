@@ -119,7 +119,7 @@ La Guia conté també una gran quantitat de recomanacions que tenen a veure
 amb la contractació de diferents serveis. Un bon document per entendre les
 particularitats de la contractació de programari lliure des de
 l’administració pública és la
-https://producingoss.com/en/index.html[Guideline on public procurement of
+https://joinup.ec.europa.eu/collection/open-source-observatory-osor/document/guideline-public-procurement-open-source-software[Guideline on public procurement of
 Open Source Software], publicat al 2010 per Rishab Aiyer Ghosh, Ruediger
 Glott, Patrice-Emmanuel Schmitz i Abdelkrim Boujraf, per encàrrec de la
 Comissió Europea sota la iniciativa https://joinup.ec.europa.eu//[Joinup].

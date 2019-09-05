@@ -531,7 +531,7 @@ Aquest gestor d’incidències ha d’estar operatiu i públic durant tota la vi
 útil del producte, més enllà de la duració que tinguin els contractes amb
 l’Ajuntament.
 
-[sidebar.measure]
+[sidebar.measure, id="{sect}.{counter:measure:A}"]
 .Vincular el repositori principal al gestor d’incidències de GitHub
 --
 [.tags]

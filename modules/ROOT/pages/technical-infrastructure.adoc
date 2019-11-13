@@ -532,7 +532,7 @@ Aquest gestor d’incidències ha d’estar operatiu i públic durant tota la vi
 l’Ajuntament.
 
 [sidebar.measure, id="{sect}.{counter:measure:A}"]
-.Vincular el repositori principal al gestor d’incidències de GitHub
+.Vincular el repositori principal al gestor d’incidències de GitHub/Gitlab
 --
 [.tags]
 * Dia1
